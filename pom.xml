@@ -15,7 +15,35 @@
         <module>test-support</module>
     </modules>
 
+    <properties>
+        <testcase.groups/>
+    </properties>
 
-
+    <profiles>
+        <profile>
+            <id>unitTests</id>
+            <properties>
+                <testcase.groups>com.hp.demo.support.UnitTests</testcase.groups>
+            </properties>
+        </profile>
+        <profile>
+            <id>systemTests</id>
+            <properties>
+                <testcase.groups>com.hp.demo.support.SystemTests</testcase.groups>
+            </properties>
+        </profile>
+        <profile>
+            <id>restTests</id>
+            <properties>
+                <testcase.groups>com.hp.demo.support.RESTTests</testcase.groups>
+            </properties>
+        </profile>
+        <profile>
+            <id>functionalTests</id>
+            <properties>
+                <testcase.groups>com.hp.demo.support.FunctionalTests</testcase.groups>
+            </properties>
+        </profile>
+    </profiles>
 
 </project>

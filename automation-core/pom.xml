@@ -27,25 +27,6 @@
         </dependency>
     </dependencies>
 
-    <profiles>
-        <profile>
-            <id>unitTests</id>
-            <properties>
-                <testcase.groups>com.hp.demo.support.UnitTests</testcase.groups>
-            </properties>
-        </profile>
-        <profile>
-            <id>systemTests</id>
-            <properties>
-                <testcase.groups>com.hp.demo.support.SystemTests</testcase.groups>
-            </properties>
-        </profile>
-    </profiles>
-
-    <properties>
-        <testcase.groups></testcase.groups>
-    </properties>
-
     <build>
         <plugins>
             <plugin>
