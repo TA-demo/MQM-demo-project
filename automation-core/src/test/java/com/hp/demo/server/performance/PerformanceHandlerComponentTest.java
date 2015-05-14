@@ -1,0 +1,36 @@
+package com.hp.demo.server.performance;
+
+import com.hp.demo.support.AbstractTest;
+import com.hp.demo.support.SystemTests;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+
+/**
+ * System
+     com.hp.demo.server.performance - PerformanceHandlerComponentTest - testDispatchRest
+     com.hp.demo.server.performance - PerformanceHandlerComponentTest - testResetSearch
+     com.hp.demo.server.performance - PerformanceHandlerComponentTest - testMergeNegative
+     com.hp.demo.server.performance - PerformanceHandlerComponentTest - testResetAccount
+     com.hp.demo.server.performance - PerformanceHandlerComponentTest - testSimpleLifecycle
+     com.hp.demo.server.performance - PerformanceHandlerComponentTest - testResetFactory
+ */
+@Category(SystemTests.class)
+public class PerformanceHandlerComponentTest extends AbstractTest {
+    @Test
+    public void testDispatchRest() { }
+
+    @Test
+    public void testResetSearch() { }
+
+    @Test
+    public void testMergeNegative() { }
+
+    @Test
+    public void testResetAccount() { }
+
+    @Test
+    public void testSimpleLifecycle() { }
+
+    @Test
+    public void testResetFactory() { }
+}
