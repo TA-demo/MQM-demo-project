@@ -1,9 +1,10 @@
 package com.hp.demo.e2e.login;
 
+import com.hp.demo.support.AbstractTest;
 import org.testng.annotations.Test;
 
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
-public class LoginFactoryHandlerTest {
+public class LoginFactoryHandlerTest extends AbstractTest {
     @Test
     public void testFoundLocation() { }
 
@@ -26,6 +27,8 @@ public class LoginFactoryHandlerTest {
     public void testResetPlatform() { }
 
     @Test
-    public void testExportNotifications() { }
+    public void testExportNotifications() {
+        slowTest();
+    }
 
 }

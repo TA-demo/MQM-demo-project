@@ -1,9 +1,10 @@
 package com.hp.demo.server.account;
 
+import com.hp.demo.support.AbstractTest;
 import org.testng.annotations.Test;
 
 @Test(groups = "com.hp.demo.support.RESTTests")
-public class AccountComponentTest {
+public class AccountComponentTest extends AbstractTest {
     @Test
     public void testSimpleLocation() { }
 
@@ -17,7 +18,9 @@ public class AccountComponentTest {
     public void testDelegateListener() { }
 
     @Test
-    public void testSimpleCamera() { }
+    public void testSimpleCamera() {
+        slowTest();
+    }
 
     @Test
     public void testCreateUseCase() { }

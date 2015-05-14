@@ -1,11 +1,12 @@
 package com.hp.demo.server.notifications;
 
+import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 @Category(UnitTests.class)
-public class NotificationsHandlerTest {
+public class NotificationsHandlerTest extends AbstractTest {
 
     @Test
     public void testSimpleModule() { }
@@ -26,7 +27,9 @@ public class NotificationsHandlerTest {
     public void testRegistrationHandler() { }
 
     @Test
-    public void testMergeCallback() { }
+    public void testMergeCallback() {
+        slowTest();
+    }
 
     @Test
     public void testNullCamera() { }

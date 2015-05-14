@@ -13,9 +13,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.hp.demo</groupId>
+            <artifactId>test-support</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.9.4</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>

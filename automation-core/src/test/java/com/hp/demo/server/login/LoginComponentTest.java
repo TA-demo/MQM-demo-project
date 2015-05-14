@@ -1,13 +1,17 @@
 package com.hp.demo.server.login;
 
+import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 @Category(SystemTests.class)
-public class LoginComponentTest {
+public class LoginComponentTest extends AbstractTest {
     @Test
-    public void testDispatchCamera() { }
+    //slow test
+    public void testDispatchCamera() {
+        slowTest();
+    }
 
     @Test
     public void testNullModule() { }
