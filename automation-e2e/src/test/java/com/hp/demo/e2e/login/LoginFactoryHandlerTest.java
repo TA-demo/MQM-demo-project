@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.login;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
@@ -21,7 +22,9 @@ public class LoginFactoryHandlerTest extends AbstractTest {
     public void testInvalidPerformance() { }
 
     @Test
-    public void testCreateTasks() { }
+    public void testCreateTasks() {
+        Assert.assertTrue(successfulBuild(), "Failed creation of tasks.");
+    }
 
     @Test
     public void testResetPlatform() { }

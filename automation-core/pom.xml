@@ -41,6 +41,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <groups>${testcase.groups}</groups>
                 </configuration>
             </plugin>
