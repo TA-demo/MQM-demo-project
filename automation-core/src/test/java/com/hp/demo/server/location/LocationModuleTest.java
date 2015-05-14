@@ -2,6 +2,7 @@ package com.hp.demo.server.location;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -20,6 +21,7 @@ import org.junit.experimental.categories.Category;
 @Category(SystemTests.class)
 public class LocationModuleTest extends AbstractTest {
     @Test
+    @Ignore
     public void testNotFoundSearch() { }
 
     @Test

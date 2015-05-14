@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
  */
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class ImageComponentTest extends AbstractTest {
-    @Test
+    @Test(enabled = false)
     public void testExportLifecycle() { }
 
     @Test
