@@ -19,10 +19,7 @@ public class AbstractTest {
      * @return false when a random number is higher than or equal 70
      */
     protected boolean successfulBuild() {
-        if (randomNumber() >= 70) {
-            return false;
-        }
-        return true;
+        return randomNumber() < 70;
     }
 
     /**
@@ -31,8 +28,6 @@ public class AbstractTest {
      */
     protected static int randomNumber() {
         Random rand = new Random();
-        int number = rand.nextInt(100);
-        System.out.println("number " + number);
-        return number;
+        return rand.nextInt(100);
     }
 }
