@@ -17,30 +17,35 @@
 
     <properties>
         <testcase.groups/>
+        <testresult.outputDir/>
     </properties>
 
     <profiles>
         <profile>
             <id>unitTests</id>
             <properties>
+                <testresult.outputDir>unit</testresult.outputDir>
                 <testcase.groups>com.hp.demo.support.UnitTests</testcase.groups>
             </properties>
         </profile>
         <profile>
             <id>systemTests</id>
             <properties>
+                <testresult.outputDir>system</testresult.outputDir>
                 <testcase.groups>com.hp.demo.support.SystemTests</testcase.groups>
             </properties>
         </profile>
         <profile>
             <id>restTests</id>
             <properties>
+                <testresult.outputDir>rest</testresult.outputDir>
                 <testcase.groups>com.hp.demo.support.RESTTests</testcase.groups>
             </properties>
         </profile>
         <profile>
             <id>functionalTests</id>
             <properties>
+                <testresult.outputDir>functional</testresult.outputDir>
                 <testcase.groups>com.hp.demo.support.FunctionalTests</testcase.groups>
             </properties>
         </profile>

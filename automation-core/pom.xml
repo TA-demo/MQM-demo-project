@@ -41,6 +41,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
+                    <reportsDirectory>${basedir}/target/surefire/${testresult.outputDir}</reportsDirectory>
                     <testFailureIgnore>true</testFailureIgnore>
                     <groups>${testcase.groups}</groups>
                 </configuration>
