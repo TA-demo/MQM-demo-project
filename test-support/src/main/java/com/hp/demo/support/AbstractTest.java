@@ -3,6 +3,7 @@ package com.hp.demo.support;
 import java.util.Random;
 
 public class AbstractTest {
+    public static final String BROWSER_PARAM = "Browser";
     /**
      * It makes the test slower - 10s - 20s
      */
@@ -20,6 +21,24 @@ public class AbstractTest {
      */
     protected boolean successfulBuild() {
         return randomNumber() < 70;
+    }
+
+
+
+    protected boolean failOnIE() {
+        return failingBuildEnvParamBased(BROWSER_PARAM, "IE");
+    }
+
+    protected boolean failOnFireFox() {
+        return failingBuildEnvParamBased(BROWSER_PARAM, "FireFox");
+    }
+
+    protected boolean failingBuildEnvParamBased(String propertyName, String value) {
+        if (propertyName == null || value == null) {
+            return false;
+        }
+        String propertyValue = System.getProperty(propertyName);
+        return propertyValue != null && value.toLowerCase().equals(propertyValue.toLowerCase());
     }
 
     /**

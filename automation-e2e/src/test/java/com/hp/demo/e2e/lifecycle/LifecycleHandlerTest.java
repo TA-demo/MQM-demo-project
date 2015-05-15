@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.lifecycle;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -14,17 +15,27 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class LifecycleHandlerTest extends AbstractTest {
     @Test
-    public void testDispatchEvent() { }
+    public void testDispatchEvent() {
+        Assert.assertFalse(failOnIE(), "An error occurred during event processing on IE");
+        Assert.assertFalse(failOnFireFox(), "An error occurred during event processing on FireFox");
+    }
 
     @Test
-    public void testExportPerformance() { }
+    public void testExportPerformance() {
+    }
 
     @Test
-    public void testNotFoundNegative() { }
+    public void testNotFoundNegative() {
+        Assert.assertFalse(failOnIE(), "Entity was not found on IE");
+    }
 
     @Test
-    public void testNotFoundLocation() { }
+    public void testNotFoundLocation() {
+        Assert.assertFalse(failOnIE(), "Location was not found on IE");
+    }
 
     @Test
-    public void testExportValidation() { }
+    public void testExportValidation() {
+        Assert.assertFalse(failOnIE(), "Validation failed on IE");
+    }
 }
