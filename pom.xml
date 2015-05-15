@@ -17,7 +17,7 @@
 
     <properties>
         <testcase.groups/>
-        <testresult.outputDir/>
+        <testresult.outputDir>all</testresult.outputDir>
     </properties>
 
     <profiles>
