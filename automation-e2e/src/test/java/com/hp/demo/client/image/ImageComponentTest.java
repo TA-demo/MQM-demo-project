@@ -1,6 +1,7 @@
 package com.hp.demo.client.image;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 /**
@@ -16,10 +17,14 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class ImageComponentTest extends AbstractTest {
     @Test(enabled = false)
+    //disabled test
     public void testExportLifecycle() { }
 
     @Test
-    public void testSimpleLifecycle() { }
+    //Skipped test
+    public void testSimpleLifecycle() {
+        throw new SkipException("This is occasionally failing. Will be fixed in FF phase.");
+    }
 
     @Test
     public void testCreateAccount() { }
