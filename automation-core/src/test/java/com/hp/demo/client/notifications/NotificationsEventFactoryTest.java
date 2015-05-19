@@ -2,6 +2,7 @@ package com.hp.demo.client.notifications;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -19,7 +20,9 @@ import org.junit.experimental.categories.Category;
 @Category(SystemTests.class)
 public class NotificationsEventFactoryTest extends AbstractTest {
     @Test
-    public void testSimplePerformance() { }
+    public void testSimplePerformance() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
     public void testResetSearch() { }

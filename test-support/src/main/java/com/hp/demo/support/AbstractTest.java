@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class AbstractTest {
     public static final String BROWSER_PARAM = "Browser";
+    public static final String HASETUP_PARAM = "HA_SETUP";
     /**
      * It makes the test slower - 10s - 20s
      */
@@ -23,7 +24,17 @@ public class AbstractTest {
         return randomNumber() < 70;
     }
 
+    protected boolean checkHASetupProperty() {
 
+        String isHA = System.getProperty(HASETUP_PARAM);
+        System.out.println("isHA = " + isHA);
+
+        if(isHA != null && isHA.equals("true")){
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     protected boolean failOnIE() {
         return failingBuildEnvParamBased(BROWSER_PARAM, "IE");
@@ -47,6 +58,8 @@ public class AbstractTest {
      */
     protected static int randomNumber() {
         Random rand = new Random();
-        return rand.nextInt(100);
+        int next =  rand.nextInt(100);
+        System.out.println("Next random: " + next);
+        return next;
     }
 }
