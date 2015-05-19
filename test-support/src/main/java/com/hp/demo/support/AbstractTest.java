@@ -30,7 +30,7 @@ public class AbstractTest {
         if(isHA == null){
             isHA = System.getenv(HASETUP_PARAM);
         }
-        System.out.println("isHA = " + isHA);
+        // System.out.println("isHA = " + isHA);
 
         if(isHA != null && isHA.equals("true")){
             return true;
@@ -62,7 +62,7 @@ public class AbstractTest {
     protected static int randomNumber() {
         Random rand = new Random();
         int next =  rand.nextInt(100);
-        System.out.println("Next random: " + next);
+        // System.out.println("Next random: " + next);
         return next;
     }
 }
