@@ -2,6 +2,7 @@ package com.hp.demo.server.providers;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -20,29 +21,46 @@ import org.junit.experimental.categories.Category;
 @Category(SystemTests.class)
 public class ProvidersComponentTest extends AbstractTest {
     @Test
-    public void testNotFoundProviders() { }
+    public void testNotFoundProviders() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetCamera() { }
+    public void testResetCamera() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testInvalidUseCase() { }
+    public void testInvalidUseCase() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testDelegateModule() { }
+    public void testDelegateModule() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testNullLifecycle() { }
+    public void testNullLifecycle() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetPlatform() { }
+    public void testResetPlatform() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testNullRest() { }
+    public void testNullRest() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testCreateLogin() { }
+    public void testCreateLogin() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testDelegateCamera() { }
+    public void testDelegateCamera() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());}
 }

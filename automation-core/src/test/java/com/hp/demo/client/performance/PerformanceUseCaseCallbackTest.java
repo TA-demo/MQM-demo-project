@@ -2,6 +2,7 @@ package com.hp.demo.client.performance;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -19,26 +20,42 @@ import org.junit.experimental.categories.Category;
 @Category(SystemTests.class)
 public class PerformanceUseCaseCallbackTest extends AbstractTest {
     @Test
-    public void testInvalidLocation() { }
+    public void testInvalidLocation() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testCreateComponent() { }
+    public void testCreateComponent() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testNullFactory() { }
+    public void testNullFactory() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetFactory() { }
+    public void testResetFactory() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testMergeFactory() { }
+    public void testMergeFactory() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testExportAccount() { }
+    public void testExportAccount() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testInvalidUtils() { }
+    public void testInvalidUtils() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testSimpleRest() { }
+    public void testSimpleRest() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 }

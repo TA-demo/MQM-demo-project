@@ -25,23 +25,37 @@ public class NotificationsEventFactoryTest extends AbstractTest {
     }
 
     @Test
-    public void testResetSearch() { }
+    public void testResetSearch() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testNullListener() { }
+    public void testNullListener() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testExportCamera() { }
+    public void testExportCamera() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testCreateModule() { }
+    public void testCreateModule() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testDelegateComponent() { }
+    public void testDelegateComponent() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetPlatform() { }
+    public void testResetPlatform() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testInvalidPlatform() { }
+    public void testInvalidPlatform() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 }

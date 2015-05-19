@@ -2,6 +2,7 @@ package com.hp.demo.server.platform;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -18,23 +19,37 @@ import org.junit.experimental.categories.Category;
 @Category(SystemTests.class)
 public class PlatformHandlerTest extends AbstractTest {
     @Test
-    public void testNotFoundComponent() { }
+    public void testNotFoundComponent() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testInvalidFactory() { }
+    public void testInvalidFactory() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testCreateCallback() { }
+    public void testCreateCallback() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testMergeValidation() { }
+    public void testMergeValidation() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testSimpleUtils() { }
+    public void testSimpleUtils() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testSimpleListener() { }
+    public void testSimpleListener() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testMergeTasks() { }
+    public void testMergeTasks() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 }

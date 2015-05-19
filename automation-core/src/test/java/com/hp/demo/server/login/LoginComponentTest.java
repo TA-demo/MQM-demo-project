@@ -28,16 +28,24 @@ public class LoginComponentTest extends AbstractTest {
     }
 
     @Test
-    public void testNullModule() { }
+    public void testNullModule() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetNegative() { }
+    public void testResetNegative() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testFoundContact() { }
+    public void testFoundContact() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testNullPerformance() { }
+    public void testNullPerformance() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
     public void testFoundListener() {
@@ -45,9 +53,13 @@ public class LoginComponentTest extends AbstractTest {
     }
 
     @Test
-    public void testRegistrationCallback() { }
+    public void testRegistrationCallback() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testFoundPlatform() { }
+    public void testFoundPlatform() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
 }

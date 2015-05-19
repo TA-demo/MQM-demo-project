@@ -2,6 +2,7 @@ package com.hp.demo.server.performance;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.SystemTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -17,20 +18,32 @@ import org.junit.experimental.categories.Category;
 @Category(SystemTests.class)
 public class PerformanceHandlerComponentTest extends AbstractTest {
     @Test
-    public void testDispatchRest() { }
+    public void testDispatchRest() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetSearch() { }
+    public void testResetSearch() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testMergeNegative() { }
+    public void testMergeNegative() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetAccount() { }
+    public void testResetAccount() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testSimpleLifecycle() { }
+    public void testSimpleLifecycle() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 
     @Test
-    public void testResetFactory() { }
+    public void testResetFactory() {
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 }
