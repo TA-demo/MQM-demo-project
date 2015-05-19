@@ -1,6 +1,7 @@
 package com.hp.demo.client.image;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
@@ -27,7 +28,9 @@ public class ImageComponentTest extends AbstractTest {
     }
 
     @Test
-    public void testCreateAccount() { }
+    public void testCreateAccount() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
     public void testResetHandler() { }
