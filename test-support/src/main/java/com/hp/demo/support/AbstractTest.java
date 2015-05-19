@@ -27,6 +27,9 @@ public class AbstractTest {
     protected boolean checkHASetupProperty() {
 
         String isHA = System.getProperty(HASETUP_PARAM);
+        if(isHA == null){
+            isHA = System.getenv(HASETUP_PARAM);
+        }
         System.out.println("isHA = " + isHA);
 
         if(isHA != null && isHA.equals("true")){
