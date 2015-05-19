@@ -1,6 +1,7 @@
 package com.hp.demo.server.tasks;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -13,14 +14,15 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class TasksModuleTest extends AbstractTest {
     @Test
-    public void testDispatchCallback() { }
+    public void testDispatchCallback() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundCamera() { }
+    public void testFoundCamera() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testRegistrationSearch() { }
+    public void testRegistrationSearch() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testFoundValidation() { }
+    public void testFoundValidation() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

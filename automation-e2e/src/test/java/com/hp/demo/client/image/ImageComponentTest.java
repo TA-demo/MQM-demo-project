@@ -19,7 +19,9 @@ import org.testng.annotations.Test;
 public class ImageComponentTest extends AbstractTest {
     @Test(enabled = false)
     //disabled test
-    public void testExportLifecycle() { }
+    public void testExportLifecycle() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+        }
 
     @Test
     //Skipped test
@@ -33,14 +35,16 @@ public class ImageComponentTest extends AbstractTest {
     }
 
     @Test
-    public void testResetHandler() { }
+    public void testResetHandler() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testResetProviders() { }
+    public void testResetProviders() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportTasks() { }
+    public void testExportTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testRegistrationUtils() { }
+    public void testRegistrationUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 }

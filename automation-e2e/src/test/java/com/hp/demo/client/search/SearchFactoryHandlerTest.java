@@ -1,6 +1,7 @@
 package com.hp.demo.client.search;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,23 +17,24 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class SearchFactoryHandlerTest extends AbstractTest {
     @Test
-    public void testCreateUseCase() { }
+    public void testCreateUseCase() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportSearch() { }
+    public void testExportSearch() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleListener() { }
+    public void testSimpleListener() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchValidation() { }
+    public void testDispatchValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testExportFactory() { }
+    public void testExportFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testRegistrationProviders() { }
+    public void testRegistrationProviders() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationNegative() { }
+    public void testRegistrationNegative() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

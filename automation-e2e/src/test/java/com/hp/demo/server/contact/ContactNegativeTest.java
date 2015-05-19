@@ -1,6 +1,7 @@
 package com.hp.demo.server.contact;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -17,26 +18,26 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class ContactNegativeTest extends AbstractTest {
     @Test
-    public void testExportRest() { }
+    public void testExportRest() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testDispatchHandler() { }
+    public void testDispatchHandler() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullProviders() { }
+    public void testNullProviders() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testDelegateValidation() { }
+    public void testDelegateValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testNotFoundListener() { }
+    public void testNotFoundListener() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testInvalidPlatform() { }
+    public void testInvalidPlatform() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullFactory() { }
+    public void testNullFactory() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetEvent() { }
+    public void testResetEvent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 }

@@ -1,6 +1,7 @@
 package com.hp.demo.server.search;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -15,20 +16,20 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class SearchModuleTest extends AbstractTest {
     @Test
-    public void testDispatchLifecycle() { }
+    public void testDispatchLifecycle() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testNotFoundSearch() { }
+    public void testNotFoundSearch() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundLifecycle() { }
+    public void testNotFoundLifecycle() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateListener() { }
+    public void testCreateListener() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testDelegateValidation() { }
+    public void testDelegateValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testInvalidComponent() { }
+    public void testInvalidComponent() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

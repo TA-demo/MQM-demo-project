@@ -1,6 +1,7 @@
 package com.hp.demo.client.login;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -14,17 +15,18 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class LoginEventTest extends AbstractTest {
     @Test
-    public void testResetValidation() { }
+    public void testResetValidation() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateImage() { }
+    public void testCreateImage() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testResetNotifications() { }
+    public void testResetNotifications() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleListener() { }
+    public void testSimpleListener() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateAccount() { }
+    public void testCreateAccount() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

@@ -1,6 +1,7 @@
 package com.hp.demo.client.rest;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -18,29 +19,29 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class RestFactoryTest extends AbstractTest {
     @Test
-    public void testCreateUtils() { }
+    public void testCreateUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testResetComponent() { }
+    public void testResetComponent() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateLocation() { }
+    public void testDelegateLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testNullCallback() { }
+    public void testNullCallback() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testNullNegative() { }
+    public void testNullNegative() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testFoundContact() { }
+    public void testFoundContact() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportImage() { }
+    public void testExportImage() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateUseCase() { }
+    public void testDelegateUseCase() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testFoundLifecycle() { }
+    public void testFoundLifecycle() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

@@ -1,6 +1,7 @@
 package com.hp.demo.client.contact;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -17,26 +18,42 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class ContactUseCaseTest extends AbstractTest {
     @Test
-    public void testFoundPerformance() { }
+    public void testFoundPerformance() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testDispatchUseCase() { }
+    public void testDispatchUseCase() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testInvalidListener() { }
+    public void testInvalidListener() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testMergeSearch() { }
+    public void testMergeSearch() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testCreateLifecycle() { }
+    public void testCreateLifecycle() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testNullProviders() { }
+    public void testNullProviders() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testExportUtils() { }
+    public void testExportUtils() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 
     @Test
-    public void testDelegateHandler() { }
+    public void testDelegateHandler() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
+    }
 }

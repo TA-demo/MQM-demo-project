@@ -1,6 +1,7 @@
 package com.hp.demo.client.rest;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,23 +17,24 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class RestHandlerTest extends AbstractTest {
     @Test
-    public void testSimpleLifecycle() { }
+    public void testSimpleLifecycle() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundProviders() { }
+    public void testNotFoundProviders() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullAccount() { }
+    public void testNullAccount() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateHandler() { }
+    public void testCreateHandler() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullFactory() { }
+    public void testNullFactory() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundListener() { }
+    public void testNotFoundListener() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundCallback() { }
+    public void testNotFoundCallback() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

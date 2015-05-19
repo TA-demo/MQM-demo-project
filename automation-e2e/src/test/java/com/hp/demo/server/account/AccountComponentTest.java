@@ -19,16 +19,16 @@ import org.testng.annotations.Test;
 @Test(groups = "com.hp.demo.support.RESTTests")
 public class AccountComponentTest extends AbstractTest {
     @Test
-    public void testSimpleLocation() { }
+    public void testSimpleLocation() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundUseCase() { }
+    public void testFoundUseCase() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeUtils() { }
+    public void testMergeUtils() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateListener() { }
+    public void testDelegateListener() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
     public void testSimpleCamera() {
@@ -36,10 +36,10 @@ public class AccountComponentTest extends AbstractTest {
     }
 
     @Test
-    public void testCreateUseCase() { }
+    public void testCreateUseCase() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");}
 
     @Test
-    public void testCreateHandler() { }
+    public void testCreateHandler() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
     public void testCreateUtils() {
@@ -47,5 +47,5 @@ public class AccountComponentTest extends AbstractTest {
     }
 
     @Test
-    public void testDispatchCallback() { }
+    public void testDispatchCallback() {Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }
