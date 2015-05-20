@@ -11,10 +11,6 @@
     <description>REST and Functional tests</description>
     <artifactId>automation-e2e</artifactId>
 
-    <properties>
-        <suiteFile>src/test/resources/testng.xml</suiteFile>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.hp.demo</groupId>
@@ -41,9 +37,6 @@
                     <reportsDirectory>${basedir}/target/surefire/${testresult.outputDir}</reportsDirectory>
                     <testFailureIgnore>true</testFailureIgnore>
                     <groups>${testcase.groups}</groups>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
-                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
