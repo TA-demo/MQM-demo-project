@@ -11,6 +11,8 @@
             <package name="com.hp.demo.server.account" />
             <package name="com.hp.demo.server.tasks" />
             <package name="com.hp.demo.server.search" />
+            <!-- User defined test classes -->
+            <package name="com.hp.demo.extra" />
         </packages>
     </test>
     <test name="FunctionalTests">
