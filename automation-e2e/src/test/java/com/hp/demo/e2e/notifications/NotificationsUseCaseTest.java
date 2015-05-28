@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.notifications;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -18,27 +19,27 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class NotificationsUseCaseTest extends AbstractTest {
     @Test
-    public void testDelegateHandler() { }
+    public void testDelegateHandler() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateComponent() { }
+    public void testDelegateComponent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeValidation() { }
+    public void testMergeValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergePlatform() { }
+    public void testMergePlatform() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateAccount() { }
+    public void testCreateAccount() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateTasks() { }
+    public void testCreateTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetPlatform() { }
+    public void testResetPlatform() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportNotifications() { }
+    public void testExportNotifications() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
 }

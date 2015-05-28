@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.account;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,23 +17,23 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class AccountUseCaseTest extends AbstractTest {
     @Test
-    public void testFoundUtils() { }
+    public void testFoundUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundLifecycle() { }
+    public void testNotFoundLifecycle() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleComponent() { }
+    public void testSimpleComponent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundUtils() { }
+    public void testNotFoundUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationListener() { }
+    public void testRegistrationListener() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportEvent() { }
+    public void testExportEvent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundSearch() { }
+    public void testFoundSearch() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

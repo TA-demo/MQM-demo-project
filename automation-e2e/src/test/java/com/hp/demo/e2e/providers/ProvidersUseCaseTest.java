@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.providers;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -15,20 +16,20 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class ProvidersUseCaseTest extends AbstractTest {
     @Test
-    public void testInvalidContact() { }
+    public void testInvalidContact() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchLocation() { }
+    public void testDispatchLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationCallback() { }
+    public void testRegistrationCallback() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchImage() { }
+    public void testDispatchImage() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationUtils() { }
+    public void testRegistrationUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testInvalidSearch() { }
+    public void testInvalidSearch() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

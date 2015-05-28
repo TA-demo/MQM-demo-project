@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.contact;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -15,20 +16,20 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class ContactFactoryTest extends AbstractTest {
     @Test
-    public void testNotFoundSearch() { }
+    public void testNotFoundSearch() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportValidation() { }
+    public void testExportValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testInvalidUseCase() { }
+    public void testInvalidUseCase() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullPerformance() { }
+    public void testNullPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchTasks() { }
+    public void testDispatchTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundHandler() { }
+    public void testNotFoundHandler() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

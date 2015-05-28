@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.tasks;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -13,14 +14,14 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class TasksModuleTest extends AbstractTest {
     @Test
-    public void testDispatchModule() { }
+    public void testDispatchModule() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationAccount() { }
+    public void testRegistrationAccount() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationPerformance() { }
+    public void testRegistrationPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleCallback() { }
+    public void testSimpleCallback() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

@@ -2,6 +2,7 @@ package com.hp.demo.client.image;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -20,23 +21,23 @@ import org.junit.experimental.categories.Category;
 public class ImageValidationTest extends AbstractTest {
 
     @Test
-    public void testDispatchValidation() { }
+    public void testDispatchValidation() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetPlatform() { }
+    public void testResetPlatform() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testFoundModule() { }
+    public void testFoundModule() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidContact() { }
+    public void testInvalidContact() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testRegistrationFactory() { }
+    public void testRegistrationFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportNotifications() { }
+    public void testExportNotifications() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNotFoundLogin() { }
+    public void testNotFoundLogin() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

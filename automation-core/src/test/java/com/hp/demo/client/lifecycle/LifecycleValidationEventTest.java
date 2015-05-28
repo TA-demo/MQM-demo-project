@@ -2,6 +2,7 @@ package com.hp.demo.client.lifecycle;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -21,26 +22,26 @@ import org.junit.experimental.categories.Category;
 public class LifecycleValidationEventTest extends AbstractTest {
 
     @Test
-    public void testFoundHandler() { }
+    public void testFoundHandler() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidHandler() { }
+    public void testInvalidHandler() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testSimpleCamera() { }
+    public void testSimpleCamera() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testFoundCallback() { }
+    public void testFoundCallback() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testRegistrationComponent() { }
+    public void testRegistrationComponent() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testMergeNegative() { }
+    public void testMergeNegative() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDispatchCamera() { }
+    public void testDispatchCamera() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullValidation() { }
+    public void testNullValidation() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

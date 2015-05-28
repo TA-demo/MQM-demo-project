@@ -50,6 +50,7 @@ public class LoginComponentTest extends AbstractTest {
     @Test
     public void testFoundListener() {
         Assert.assertTrue("Listener was not found.", successfulBuild());
+        Assert.assertFalse("HA Setup failed",checkHASetupProperty());
     }
 
     @Test

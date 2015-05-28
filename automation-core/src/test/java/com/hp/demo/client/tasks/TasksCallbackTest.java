@@ -2,6 +2,7 @@ package com.hp.demo.client.tasks;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -20,23 +21,23 @@ import org.junit.experimental.categories.Category;
 public class TasksCallbackTest extends AbstractTest {
 
     @Test
-    public void testNotFoundRest() { }
+    public void testNotFoundRest() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetLifecycle() { }
+    public void testResetLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetPlatform() { }
+    public void testResetPlatform() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportLifecycle() { }
+    public void testExportLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetLocation() { }
+    public void testResetLocation() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidAccount() { }
+    public void testInvalidAccount() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidNegative() { }
+    public void testInvalidNegative() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

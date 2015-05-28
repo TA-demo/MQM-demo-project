@@ -2,6 +2,7 @@ package com.hp.demo.client.utils;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -19,20 +20,20 @@ import org.junit.experimental.categories.Category;
 public class UtilsModuleNullTest extends AbstractTest {
 
     @Test
-    public void testResetModule() { }
+    public void testResetModule() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDispatchValidation() { }
+    public void testDispatchValidation() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidListener() { }
+    public void testInvalidListener() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetAccount() { }
+    public void testResetAccount() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullTasks() { }
+    public void testNullTasks() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testMergeModule() { }
+    public void testMergeModule() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

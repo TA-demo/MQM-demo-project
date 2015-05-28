@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.location;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,23 +17,23 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class LocationHandlerComponentTest extends AbstractTest {
     @Test
-    public void testExportUtils() { }
+    public void testExportUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateImage() { }
+    public void testCreateImage() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleListener() { }
+    public void testSimpleListener() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetPerformance() { }
+    public void testResetPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundPerformance() { }
+    public void testFoundPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchProviders() { }
+    public void testDispatchProviders() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleFactory() { }
+    public void testSimpleFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

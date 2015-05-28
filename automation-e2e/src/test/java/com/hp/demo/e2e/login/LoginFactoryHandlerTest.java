@@ -18,27 +18,28 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class LoginFactoryHandlerTest extends AbstractTest {
     @Test
-    public void testFoundLocation() { }
+    public void testFoundLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateContact() { }
+    public void testCreateContact() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeImage() { }
+    public void testMergeImage() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundCamera() { }
+    public void testFoundCamera() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testInvalidPerformance() { }
+    public void testInvalidPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
     public void testCreateTasks() {
         Assert.assertTrue(successfulBuild(), "Failed creation of tasks.");
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 
     @Test
-    public void testResetPlatform() { }
+    public void testResetPlatform() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
     public void testExportNotifications() {

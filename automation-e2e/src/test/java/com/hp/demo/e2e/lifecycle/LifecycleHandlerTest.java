@@ -18,24 +18,26 @@ public class LifecycleHandlerTest extends AbstractTest {
     public void testDispatchEvent() {
         Assert.assertFalse(failOnIE(), "An error occurred during event processing on IE");
         Assert.assertFalse(failOnFireFox(), "An error occurred during event processing on FireFox");
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 
     @Test
     public void testExportPerformance() {
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 
     @Test
     public void testNotFoundNegative() {
-        Assert.assertFalse(failOnIE(), "Entity was not found on IE");
+        Assert.assertFalse(failOnIE(), "Entity was not found on IE");Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 
     @Test
     public void testNotFoundLocation() {
-        Assert.assertFalse(failOnIE(), "Location was not found on IE");
+        Assert.assertFalse(failOnIE(), "Location was not found on IE");Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 
     @Test
     public void testExportValidation() {
-        Assert.assertFalse(failOnIE(), "Validation failed on IE");
+        Assert.assertFalse(failOnIE(), "Validation failed on IE");Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 }

@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.performance;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -18,29 +19,29 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class PerformanceHandlerComponentTest extends AbstractTest {
     @Test
-    public void testExportPlatform() { }
+    public void testExportPlatform() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportComponent() { }
+    public void testExportComponent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullValidation() { }
+    public void testNullValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullPlatform() { }
+    public void testNullPlatform() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetUseCase() { }
+    public void testResetUseCase() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchFactory() { }
+    public void testDispatchFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleCallback() { }
+    public void testSimpleCallback() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundHandler() { }
+    public void testFoundHandler() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimplePerformance() { }
+    public void testSimplePerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

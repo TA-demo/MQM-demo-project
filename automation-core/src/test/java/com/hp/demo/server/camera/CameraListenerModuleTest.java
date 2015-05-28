@@ -2,6 +2,7 @@ package com.hp.demo.server.camera;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -21,26 +22,26 @@ import org.junit.experimental.categories.Category;
 public class CameraListenerModuleTest extends AbstractTest {
 
     @Test
-    public void testMergeContact() { }
+    public void testMergeContact() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testMergeCamera() { }
+    public void testMergeCamera() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetCamera() { }
+    public void testResetCamera() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testSimpleHandler() { }
+    public void testSimpleHandler() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportLifecycle() { }
+    public void testExportLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testSimpleTasks() { }
+    public void testSimpleTasks() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testFoundEvent() { }
+    public void testFoundEvent() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetListener() { }
+    public void testResetListener() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

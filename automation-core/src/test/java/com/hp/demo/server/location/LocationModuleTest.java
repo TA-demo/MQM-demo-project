@@ -23,7 +23,7 @@ import org.junit.experimental.categories.Category;
 public class LocationModuleTest extends AbstractTest {
     @Test
     @Ignore
-    public void testNotFoundSearch() { }
+    public void testNotFoundSearch() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
     public void testFoundSearch() {

@@ -44,6 +44,7 @@ public class AccountComponentTest extends AbstractTest {
     @Test
     public void testCreateUtils() {
         Assert.assertTrue(successfulBuild(), "Failed creation of Utils");
+        Assert.assertFalse(checkHASetupProperty(), "HA Setup failed");
     }
 
     @Test

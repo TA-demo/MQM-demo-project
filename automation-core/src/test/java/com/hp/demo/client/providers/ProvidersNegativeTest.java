@@ -2,6 +2,7 @@ package com.hp.demo.client.providers;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -21,26 +22,26 @@ import org.junit.experimental.categories.Category;
 public class ProvidersNegativeTest extends AbstractTest {
 
     @Test
-    public void testInvalidUseCase() { }
+    public void testInvalidUseCase() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testFoundFactory() { }
+    public void testFoundFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNotFoundPlatform() { }
+    public void testNotFoundPlatform() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNotFoundValidation() { }
+    public void testNotFoundValidation() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullComponent() { }
+    public void testNullComponent() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDelegateHandler() { }
+    public void testDelegateHandler() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidComponent() { }
+    public void testInvalidComponent() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetPerformance() { }
+    public void testResetPerformance() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

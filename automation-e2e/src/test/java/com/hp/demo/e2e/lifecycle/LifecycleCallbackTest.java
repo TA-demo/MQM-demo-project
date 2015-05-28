@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.lifecycle;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -15,20 +16,20 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class LifecycleCallbackTest extends AbstractTest {
     @Test
-    public void testDelegateImage() { }
+    public void testDelegateImage() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetSearch() { }
+    public void testResetSearch() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationValidation() { }
+    public void testRegistrationValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateTasks() { }
+    public void testDelegateTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateNotifications() { }
+    public void testDelegateNotifications() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportFactory() { }
+    public void testExportFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

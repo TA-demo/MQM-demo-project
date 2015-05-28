@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.location;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -13,14 +14,14 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class LocationHandlerTest extends AbstractTest {
     @Test
-    public void testCreateAccount() { }
+    public void testCreateAccount() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportComponent() { }
+    public void testExportComponent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeHandler() { }
+    public void testMergeHandler() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeValidation() { }
+    public void testMergeValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

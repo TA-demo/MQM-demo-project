@@ -2,6 +2,7 @@ package com.hp.demo.client.platform;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -22,29 +23,29 @@ import org.junit.experimental.categories.Category;
 public class PlatformNegativeTest extends AbstractTest {
 
     @Test
-    public void testRegistrationFactory() { }
+    public void testRegistrationFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullNotifications() { }
+    public void testNullNotifications() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportNegative() { }
+    public void testExportNegative() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testMergeLifecycle() { }
+    public void testMergeLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDispatchModule() { }
+    public void testDispatchModule() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testFoundImage() { }
+    public void testFoundImage() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportSearch() { }
+    public void testExportSearch() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testMergeFactory() { }
+    public void testMergeFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetLifecycle() { }
+    public void testResetLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

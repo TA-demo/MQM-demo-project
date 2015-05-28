@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.search;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -18,29 +19,29 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class SearchNegativeTest extends AbstractTest {
     @Test
-    public void testDelegateComponent() { }
+    public void testDelegateComponent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationModule() { }
+    public void testRegistrationModule() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateModule() { }
+    public void testDelegateModule() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationUtils() { }
+    public void testRegistrationUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateNotifications() { }
+    public void testCreateNotifications() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetLogin() { }
+    public void testResetLogin() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationLogin() { }
+    public void testRegistrationLogin() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationTasks() { }
+    public void testRegistrationTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleNegative() { }
+    public void testSimpleNegative() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

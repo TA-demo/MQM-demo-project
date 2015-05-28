@@ -2,6 +2,7 @@ package com.hp.demo.client.location;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -19,20 +20,20 @@ import org.junit.experimental.categories.Category;
 public class LocationModuleTest extends AbstractTest {
 
     @Test
-    public void testExportUtils() { }
+    public void testExportUtils() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetContact() { }
+    public void testResetContact() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDelegateProviders() { }
+    public void testDelegateProviders() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetFactory() { }
+    public void testResetFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testCreateCamera() { }
+    public void testCreateCamera() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportTasks() { }
+    public void testExportTasks() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

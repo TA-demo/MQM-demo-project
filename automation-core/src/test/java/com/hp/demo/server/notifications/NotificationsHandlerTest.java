@@ -22,23 +22,24 @@ import org.junit.experimental.categories.Category;
 public class NotificationsHandlerTest extends AbstractTest {
 
     @Test
-    public void testSimpleModule() { }
+    public void testSimpleModule() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testCreateAccount() { }
+    public void testCreateAccount() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidImage() { }
+    public void testInvalidImage() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testExportSearch() { }
+    public void testExportSearch() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDelegateHandler() { }
+    public void testDelegateHandler() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
     public void testRegistrationHandler() {
         Assert.assertTrue("Handler registration failed.", successfulBuild());
+        Assert.assertFalse("HA Setup failed",checkHASetupProperty());
     }
 
     @Test
@@ -47,5 +48,5 @@ public class NotificationsHandlerTest extends AbstractTest {
     }
 
     @Test
-    public void testNullCamera() { }
+    public void testNullCamera() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

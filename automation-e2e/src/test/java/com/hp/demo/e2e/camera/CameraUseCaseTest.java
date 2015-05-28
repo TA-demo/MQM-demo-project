@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.camera;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -15,20 +16,20 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class CameraUseCaseTest extends AbstractTest {
     @Test
-    public void testFoundUtils() { }
+    public void testFoundUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateUtils() { }
+    public void testCreateUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullCallback() { }
+    public void testNullCallback() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeNegative() { }
+    public void testMergeNegative() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullEvent() { }
+    public void testNullEvent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchNegative() { }
+    public void testDispatchNegative() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

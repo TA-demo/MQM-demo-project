@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.image;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -17,26 +18,26 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class ImageUseCaseTest extends AbstractTest {
     @Test
-    public void testNotFoundPerformance() { }
+    public void testNotFoundPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testExportModule() { }
+    public void testExportModule() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchUtils() { }
+    public void testDispatchUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateUseCase() { }
+    public void testDelegateUseCase() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleFactory() { }
+    public void testSimpleFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetEvent() { }
+    public void testResetEvent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundHandler() { }
+    public void testFoundHandler() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testInvalidUtils() { }
+    public void testInvalidUtils() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

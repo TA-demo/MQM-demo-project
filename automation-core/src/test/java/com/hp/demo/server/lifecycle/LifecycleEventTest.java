@@ -2,6 +2,7 @@ package com.hp.demo.server.lifecycle;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -22,29 +23,29 @@ import org.junit.experimental.categories.Category;
 public class LifecycleEventTest extends AbstractTest {
 
     @Test
-    public void testNotFoundValidation() { }
+    public void testNotFoundValidation() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullProviders() { }
+    public void testNullProviders() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetFactory() { }
+    public void testResetFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testCreateAccount() { }
+    public void testCreateAccount() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testInvalidListener() { }
+    public void testInvalidListener() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testCreateLogin() { }
+    public void testCreateLogin() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testRegistrationLifecycle() { }
+    public void testRegistrationLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNotFoundEvent() { }
+    public void testNotFoundEvent() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testResetProviders() { }
+    public void testResetProviders() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }

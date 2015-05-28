@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.performance;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -13,14 +14,14 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class PerformanceListenerTest extends AbstractTest {
     @Test
-    public void testResetFactory() { }
+    public void testResetFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateContact() { }
+    public void testCreateContact() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundAccount() { }
+    public void testFoundAccount() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateFactory() { }
+    public void testCreateFactory() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

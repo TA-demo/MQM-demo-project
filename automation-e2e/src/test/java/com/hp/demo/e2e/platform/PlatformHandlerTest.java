@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.platform;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,23 +17,23 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class PlatformHandlerTest extends AbstractTest {
     @Test
-    public void testMergeLifecycle() { }
+    public void testMergeLifecycle() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDelegateRest() { }
+    public void testDelegateRest() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNullTasks() { }
+    public void testNullTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationLocation() { }
+    public void testRegistrationLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationTasks() { }
+    public void testRegistrationTasks() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationPlatform() { }
+    public void testRegistrationPlatform() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testRegistrationProviders() { }
+    public void testRegistrationProviders() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

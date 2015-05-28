@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.lifecycle;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -13,14 +14,14 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class LifecycleNewFactoryTest extends AbstractTest {
     @Test
-    public void testNullLocation() { }
+    public void testNullLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testSimpleCallback() { }
+    public void testSimpleCallback() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetLocation() { }
+    public void testResetLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testMergeValidation() { }
+    public void testMergeValidation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

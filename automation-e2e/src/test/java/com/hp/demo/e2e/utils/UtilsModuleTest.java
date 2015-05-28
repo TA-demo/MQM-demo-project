@@ -1,6 +1,7 @@
 package com.hp.demo.e2e.utils;
 
 import com.hp.demo.support.AbstractTest;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -17,26 +18,26 @@ import org.testng.annotations.Test;
 @Test(groups = { "com.hp.demo.support.FunctionalTests" })
 public class UtilsModuleTest extends AbstractTest {
     @Test
-    public void testMergeProviders() { }
+    public void testMergeProviders() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundSearch() { }
+    public void testNotFoundSearch() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testResetEvent() { }
+    public void testResetEvent() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testInvalidPerformance() { }
+    public void testInvalidPerformance() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testFoundNotifications() { }
+    public void testFoundNotifications() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testCreateLogin() { }
+    public void testCreateLogin() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testNotFoundLocation() { }
+    public void testNotFoundLocation() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 
     @Test
-    public void testDispatchRest() { }
+    public void testDispatchRest() { Assert.assertFalse(checkHASetupProperty(), "HA Setup failed"); }
 }

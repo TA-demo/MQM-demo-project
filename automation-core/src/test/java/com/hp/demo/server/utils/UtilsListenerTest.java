@@ -2,6 +2,7 @@ package com.hp.demo.server.utils;
 
 import com.hp.demo.support.AbstractTest;
 import com.hp.demo.support.UnitTests;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -21,26 +22,26 @@ import org.junit.experimental.categories.Category;
 public class UtilsListenerTest extends AbstractTest {
 
     @Test
-    public void testResetFactory() { }
+    public void testResetFactory() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testMergeLogin() { }
+    public void testMergeLogin() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testCreateLifecycle() { }
+    public void testCreateLifecycle() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullPerformance() { }
+    public void testNullPerformance() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNullEvent() { }
+    public void testNullEvent() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testSimpleModule() { }
+    public void testSimpleModule() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testDelegateProviders() { }
+    public void testDelegateProviders() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 
     @Test
-    public void testNotFoundNotifications() { }
+    public void testNotFoundNotifications() { Assert.assertFalse("HA Setup failed", checkHASetupProperty()); }
 }
