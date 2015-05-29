@@ -17,5 +17,4 @@ public class AddingBCustomTest extends AbstractTest {
         // this test does not support High-Availability setup and will fail
         Assert.assertFalse("HA Setup failed", checkHASetupProperty());
     }
-
 }
