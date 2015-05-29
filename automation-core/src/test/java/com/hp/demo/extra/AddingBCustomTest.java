@@ -17,4 +17,11 @@ public class AddingBCustomTest extends AbstractTest {
         // this test does not support High-Availability setup and will fail
         Assert.assertFalse("HA Setup failed", checkHASetupProperty());
     }
+
+    @Test
+    public void testMyBExtraCodeLazyInit() {
+        System.out.println("Adding a new system B test - lazy init");
+        // this test does not support High-Availability setup and will fail
+        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+    }
 }
