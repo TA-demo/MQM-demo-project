@@ -31,7 +31,7 @@ public class NotificationsEventFactoryTest extends AbstractTest {
 
     @Test
     public void testNullListener() {
-        Assert.assertFalse("HA Setup failed", checkHASetupProperty());
+        Assert.fail("Continuously failing");
     }
 
     @Test
