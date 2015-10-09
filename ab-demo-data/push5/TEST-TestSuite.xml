@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="35.893" tests="201" errors="0" skipped="4" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/var/lib/jenkins/jobs/Demo-root/workspace"/>
+    <property name="java.runtime.version" value="1.7.0_45-mockbuild_2013_10_22_03_37-b00"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/apache-maven-3.0.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-431.el6.x86_64"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="java.class.path" value="/opt/apache-maven-3.0.5/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P rest"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/netx.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/plugin.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/apache-maven-3.0.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testCreateLifecycle" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0.023"/>
+  <testcase name="testDelegateHandler" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0"/>
+  <testcase name="testDispatchUseCase" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0"/>
+  <testcase name="testExportUtils" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0"/>
+  <testcase name="testFoundPerformance" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0.001"/>
+  <testcase name="testInvalidListener" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0"/>
+  <testcase name="testMergeSearch" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0"/>
+  <testcase name="testNullProviders" classname="com.hp.demo.client.contact.ContactUseCaseTest" time="0.001"/>
+  <testcase name="testCreateAccount" classname="com.hp.demo.client.image.ImageComponentTest" time="0"/>
+  <testcase name="testExportTasks" classname="com.hp.demo.client.image.ImageComponentTest" time="0"/>
+  <testcase name="testRegistrationUtils" classname="com.hp.demo.client.image.ImageComponentTest" time="0"/>
+  <testcase name="testResetHandler" classname="com.hp.demo.client.image.ImageComponentTest" time="0"/>
+  <testcase name="testResetProviders" classname="com.hp.demo.client.image.ImageComponentTest" time="0"/>
+  <testcase name="testSimpleLifecycle" classname="com.hp.demo.client.image.ImageComponentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreateAccount" classname="com.hp.demo.client.login.LoginEventTest" time="0"/>
+  <testcase name="testCreateImage" classname="com.hp.demo.client.login.LoginEventTest" time="0.001"/>
+  <testcase name="testResetNotifications" classname="com.hp.demo.client.login.LoginEventTest" time="0"/>
+  <testcase name="testResetValidation" classname="com.hp.demo.client.login.LoginEventTest" time="0"/>
+  <testcase name="testSimpleListener" classname="com.hp.demo.client.login.LoginEventTest" time="0"/>
+  <testcase name="testCreateHandler" classname="com.hp.demo.client.rest.RestHandlerTest" time="0"/>
+  <testcase name="testNotFoundCallback" classname="com.hp.demo.client.rest.RestHandlerTest" time="0"/>
+  <testcase name="testNotFoundListener" classname="com.hp.demo.client.rest.RestHandlerTest" time="0"/>
+  <testcase name="testNotFoundProviders" classname="com.hp.demo.client.rest.RestHandlerTest" time="0.001"/>
+  <testcase name="testNullAccount" classname="com.hp.demo.client.rest.RestHandlerTest" time="0"/>
+  <testcase name="testNullFactory" classname="com.hp.demo.client.rest.RestHandlerTest" time="0"/>
+  <testcase name="testSimpleLifecycle" classname="com.hp.demo.client.rest.RestHandlerTest" time="0"/>
+  <testcase name="testCreateUseCase" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testDispatchValidation" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testExportFactory" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testExportSearch" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testRegistrationNegative" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testRegistrationProviders" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testSimpleListener" classname="com.hp.demo.client.search.SearchFactoryHandlerTest" time="0"/>
+  <testcase name="testDelegateValidation" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testDispatchHandler" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testExportRest" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testInvalidPlatform" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testNotFoundListener" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testNullFactory" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testNullProviders" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testResetEvent" classname="com.hp.demo.server.contact.ContactNegativeTest" time="0"/>
+  <testcase name="testCreateHandler" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testCreateUseCase" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testCreateUtils" classname="com.hp.demo.server.account.AccountComponentTest" time="0.006">
+    <failure message="Failed creation of Utils expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Failed creation of Utils expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.hp.demo.server.account.AccountComponentTest.testCreateUtils(AccountComponentTest.java:46)
+</failure>
+  </testcase>
+  <testcase name="testDelegateListener" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testDispatchCallback" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testFoundUseCase" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testMergeUtils" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testSimpleCamera" classname="com.hp.demo.server.account.AccountComponentTest" time="18.401"/>
+  <testcase name="testSimpleLocation" classname="com.hp.demo.server.account.AccountComponentTest" time="0"/>
+  <testcase name="testDispatchCallback" classname="com.hp.demo.server.tasks.TasksModuleTest" time="0.001"/>
+  <testcase name="testFoundCamera" classname="com.hp.demo.server.tasks.TasksModuleTest" time="0"/>
+  <testcase name="testFoundValidation" classname="com.hp.demo.server.tasks.TasksModuleTest" time="0"/>
+  <testcase name="testRegistrationSearch" classname="com.hp.demo.server.tasks.TasksModuleTest" time="0"/>
+  <testcase name="testCreateListener" classname="com.hp.demo.server.search.SearchModuleTest" time="0"/>
+  <testcase name="testDelegateValidation" classname="com.hp.demo.server.search.SearchModuleTest" time="0"/>
+  <testcase name="testDispatchLifecycle" classname="com.hp.demo.server.search.SearchModuleTest" time="0"/>
+  <testcase name="testInvalidComponent" classname="com.hp.demo.server.search.SearchModuleTest" time="0.001"/>
+  <testcase name="testNotFoundLifecycle" classname="com.hp.demo.server.search.SearchModuleTest" time="0"/>
+  <testcase name="testNotFoundSearch" classname="com.hp.demo.server.search.SearchModuleTest" time="0.001"/>
+  <testcase name="testLDAP" classname="com.hp.demo.extra.ExtraLoginComponentTest" time="0.001"/>
+  <testcase name="testLDAPNotAvailable" classname="com.hp.demo.extra.ExtraLoginComponentTest" time="0"/>
+  <testcase name="testLogOutAction" classname="com.hp.demo.extra.ExtraLoginComponentTest" time="0"/>
+  <testcase name="testRegisterExtraListener" classname="com.hp.demo.extra.ExtraLoginComponentTest" time="0"/>
+  <testcase name="testTestLoginAction" classname="com.hp.demo.extra.ExtraLoginComponentTest" time="0"/>
+  <testcase name="testCreateUtils" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testDelegateLocation" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testDelegateUseCase" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testExportImage" classname="com.hp.demo.client.rest.RestFactoryTest" time="0.001"/>
+  <testcase name="testFoundContact" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testFoundLifecycle" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testNullCallback" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testNullNegative" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testResetComponent" classname="com.hp.demo.client.rest.RestFactoryTest" time="0"/>
+  <testcase name="testCreateUtils" classname="com.hp.demo.e2e.camera.CameraUseCaseTest" time="0">
+    <failure message="Oscilating" type="java.lang.AssertionError">java.lang.AssertionError: Continuously failing
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.hp.demo.client.notifications.NotificationsEventFactoryTest.testNullListener(NotificationsEventFactoryTest.java:34)
+</failure>
+  </testcase>
+  <testcase name="testDispatchNegative" classname="com.hp.demo.e2e.camera.CameraUseCaseTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFoundUtils" classname="com.hp.demo.e2e.camera.CameraUseCaseTest" time="0">
+    <failure message="Oscilating" type="java.lang.AssertionError">java.lang.AssertionError: Continuously failing
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.hp.demo.client.notifications.NotificationsEventFactoryTest.testNullListener(NotificationsEventFactoryTest.java:34)
+</failure>
+  </testcase>
+  <testcase name="testMergeNegative" classname="com.hp.demo.e2e.camera.CameraUseCaseTest" time="0.001"/>
+  <testcase name="testNullCallback" classname="com.hp.demo.e2e.camera.CameraUseCaseTest" time="0"/>
+  <testcase name="testNullEvent" classname="com.hp.demo.e2e.camera.CameraUseCaseTest" time="0"/>
+  <testcase name="testDispatchTasks" classname="com.hp.demo.e2e.contact.ContactFactoryTest" time="0"/>
+  <testcase name="testExportValidation" classname="com.hp.demo.e2e.contact.ContactFactoryTest" time="0"/>
+  <testcase name="testInvalidUseCase" classname="com.hp.demo.e2e.contact.ContactFactoryTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testNotFoundHandler" classname="com.hp.demo.e2e.contact.ContactFactoryTest" time="0"/>
+  <testcase name="testNotFoundSearch" classname="com.hp.demo.e2e.contact.ContactFactoryTest" time="0.001"/>
+  <testcase name="testNullPerformance" classname="com.hp.demo.e2e.contact.ContactFactoryTest" time="0"/>
+  <testcase name="testExportEvent" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0"/>
+  <testcase name="testFoundSearch" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0"/>
+  <testcase name="testFoundUtils" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0.001">
+    <failure message="Oscilating" type="java.lang.AssertionError">java.lang.AssertionError: Continuously failing
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.hp.demo.client.notifications.NotificationsEventFactoryTest.testNullListener(NotificationsEventFactoryTest.java:34)
+</failure>
+  </testcase>
+  <testcase name="testNotFoundLifecycle" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0"/>
+  <testcase name="testNotFoundUtils" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0"/>
+  <testcase name="testRegistrationListener" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0"/>
+  <testcase name="testSimpleComponent" classname="com.hp.demo.e2e.account.AccountUseCaseTest" time="0.001"/>
+  <testcase name="testDelegateUseCase" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testDispatchUtils" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testExportModule" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0.001"/>
+  <testcase name="testFoundHandler" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testInvalidUtils" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testNotFoundPerformance" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testResetEvent" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testSimpleFactory" classname="com.hp.demo.e2e.image.ImageUseCaseTest" time="0"/>
+  <testcase name="testMergeValidation" classname="com.hp.demo.e2e.lifecycle.LifecycleNewFactoryTest" time="0"/>
+  <testcase name="testNullLocation" classname="com.hp.demo.e2e.lifecycle.LifecycleNewFactoryTest" time="0"/>
+  <testcase name="testResetLocation" classname="com.hp.demo.e2e.lifecycle.LifecycleNewFactoryTest" time="0"/>
+  <testcase name="testSimpleCallback" classname="com.hp.demo.e2e.lifecycle.LifecycleNewFactoryTest" time="0"/>
+  <testcase name="testCreateAccount" classname="com.hp.demo.e2e.location.LocationHandlerTest" time="0"/>
+  <testcase name="testExportComponent" classname="com.hp.demo.e2e.location.LocationHandlerTest" time="0"/>
+  <testcase name="testMergeHandler" classname="com.hp.demo.e2e.location.LocationHandlerTest" time="0"/>
+  <testcase name="testMergeValidation" classname="com.hp.demo.e2e.location.LocationHandlerTest" time="0"/>
+  <testcase name="testCreateContact" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0.001"/>
+  <testcase name="testCreateTasks" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0"/>
+  <testcase name="testExportNotifications" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="17.404"/>
+  <testcase name="testFoundCamera" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0"/>
+  <testcase name="testFoundLocation" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0"/>
+  <testcase name="testInvalidPerformance" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0"/>
+  <testcase name="testMergeImage" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testResetPlatform" classname="com.hp.demo.e2e.login.LoginFactoryHandlerTest" time="0"/>
+  <testcase name="testCreateAccount" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testCreateTasks" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testDelegateComponent" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testDelegateHandler" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testExportNotifications" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testMergePlatform" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testMergeValidation" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testResetPlatform" classname="com.hp.demo.e2e.notifications.NotificationsUseCaseTest" time="0"/>
+  <testcase name="testCreateContact" classname="com.hp.demo.e2e.performance.PerformanceListenerTest" time="0"/>
+  <testcase name="testCreateFactory" classname="com.hp.demo.e2e.performance.PerformanceListenerTest" time="0"/>
+  <testcase name="testFoundAccount" classname="com.hp.demo.e2e.performance.PerformanceListenerTest" time="0"/>
+  <testcase name="testResetFactory" classname="com.hp.demo.e2e.performance.PerformanceListenerTest" time="0"/>
+  <testcase name="testDelegateRest" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0"/>
+  <testcase name="testMergeLifecycle" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0"/>
+  <testcase name="testNullTasks" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0.008"/>
+  <testcase name="testRegistrationLocation" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0.001"/>
+  <testcase name="testRegistrationPlatform" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0"/>
+  <testcase name="testRegistrationProviders" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0"/>
+  <testcase name="testRegistrationTasks" classname="com.hp.demo.e2e.platform.PlatformHandlerTest" time="0"/>
+  <testcase name="testDispatchImage" classname="com.hp.demo.e2e.providers.ProvidersUseCaseTest" time="0.001"/>
+  <testcase name="testDispatchLocation" classname="com.hp.demo.e2e.providers.ProvidersUseCaseTest" time="0"/>
+  <testcase name="testInvalidContact" classname="com.hp.demo.e2e.providers.ProvidersUseCaseTest" time="0"/>
+  <testcase name="testInvalidSearch" classname="com.hp.demo.e2e.providers.ProvidersUseCaseTest" time="0"/>
+  <testcase name="testRegistrationCallback" classname="com.hp.demo.e2e.providers.ProvidersUseCaseTest" time="0"/>
+  <testcase name="testRegistrationUtils" classname="com.hp.demo.e2e.providers.ProvidersUseCaseTest" time="0"/>
+  <testcase name="testCreateCallback" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0.001"/>
+  <testcase name="testExportTasks" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0"/>
+  <testcase name="testNullListener" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0.001"/>
+  <testcase name="testRegistrationAccount" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0"/>
+  <testcase name="testRegistrationFactory" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0"/>
+  <testcase name="testRegistrationPlatform" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0"/>
+  <testcase name="testResetLogin" classname="com.hp.demo.e2e.rest.RestComponentTest" time="0"/>
+  <testcase name="testCreateNotifications" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0"/>
+  <testcase name="testDelegateComponent" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0.001"/>
+  <testcase name="testDelegateModule" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0.006"/>
+  <testcase name="testRegistrationLogin" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0.001"/>
+  <testcase name="testRegistrationModule" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0"/>
+  <testcase name="testRegistrationTasks" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0.001"/>
+  <testcase name="testRegistrationUtils" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0"/>
+  <testcase name="testResetLogin" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0"/>
+  <testcase name="testSimpleNegative" classname="com.hp.demo.e2e.search.SearchNegativeTest" time="0"/>
+  <testcase name="testDispatchModule" classname="com.hp.demo.e2e.tasks.TasksModuleTest" time="0.001"/>
+  <testcase name="testRegistrationAccount" classname="com.hp.demo.e2e.tasks.TasksModuleTest" time="0"/>
+  <testcase name="testRegistrationPerformance" classname="com.hp.demo.e2e.tasks.TasksModuleTest" time="0.001"/>
+  <testcase name="testSimpleCallback" classname="com.hp.demo.e2e.tasks.TasksModuleTest" time="0"/>
+  <testcase name="testCreateLogin" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0"/>
+  <testcase name="testDispatchRest" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0"/>
+  <testcase name="testFoundNotifications" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0.001"/>
+  <testcase name="testInvalidPerformance" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0.008"/>
+  <testcase name="testMergeProviders" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0.001"/>
+  <testcase name="testNotFoundLocation" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0"/>
+  <testcase name="testNotFoundSearch" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0"/>
+  <testcase name="testResetEvent" classname="com.hp.demo.e2e.utils.UtilsModuleTest" time="0"/>
+  <testcase name="testDelegateImage" classname="com.hp.demo.e2e.lifecycle.LifecycleCallbackTest" time="0.001"/>
+  <testcase name="testDelegateNotifications" classname="com.hp.demo.e2e.lifecycle.LifecycleCallbackTest" time="0"/>
+  <testcase name="testDelegateTasks" classname="com.hp.demo.e2e.lifecycle.LifecycleCallbackTest" time="0"/>
+  <testcase name="testExportFactory" classname="com.hp.demo.e2e.lifecycle.LifecycleCallbackTest" time="0"/>
+  <testcase name="testRegistrationValidation" classname="com.hp.demo.e2e.lifecycle.LifecycleCallbackTest" time="0"/>
+  <testcase name="testResetSearch" classname="com.hp.demo.e2e.lifecycle.LifecycleCallbackTest" time="0.001"/>
+  <testcase name="testCreateImage" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testDispatchProviders" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testExportUtils" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testFoundPerformance" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testResetPerformance" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testSimpleFactory" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testSimpleListener" classname="com.hp.demo.e2e.location.LocationHandlerComponentTest" time="0"/>
+  <testcase name="testDispatchFactory" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testExportComponent" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testExportPlatform" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testFoundHandler" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0.008"/>
+  <testcase name="testNullPlatform" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0.001"/>
+  <testcase name="testNullValidation" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testResetUseCase" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testSimpleCallback" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testSimplePerformance" classname="com.hp.demo.e2e.performance.PerformanceHandlerComponentTest" time="0"/>
+  <testcase name="testDispatchEvent" classname="com.hp.demo.e2e.lifecycle.LifecycleHandlerTest" time="0"/>
+  <testcase name="testExportPerformance" classname="com.hp.demo.e2e.lifecycle.LifecycleHandlerTest" time="0"/>
+  <testcase name="testExportValidation" classname="com.hp.demo.e2e.lifecycle.LifecycleHandlerTest" time="0"/>
+  <testcase name="testNotFoundLocation" classname="com.hp.demo.e2e.lifecycle.LifecycleHandlerTest" time="0"/>
+  <testcase name="testNotFoundNegative" classname="com.hp.demo.e2e.lifecycle.LifecycleHandlerTest" time="0"/>
+  <testcase name="testExportContact" classname="com.hp.demo.e2e.lifecycle.LifecycleFactoryTest" time="0"/>
+  <testcase name="testNotFoundNegative" classname="com.hp.demo.e2e.lifecycle.LifecycleFactoryTest" time="0"/>
+  <testcase name="testNotFoundUseCase" classname="com.hp.demo.e2e.lifecycle.LifecycleFactoryTest" time="0"/>
+  <testcase name="testResetModule" classname="com.hp.demo.e2e.lifecycle.LifecycleFactoryTest" time="0"/>
+</testsuite>
