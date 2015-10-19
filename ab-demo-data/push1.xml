@@ -5,7 +5,7 @@
               status="Failed" duration="0" started="@@@STARTED@@@">
             <fields>
                 <field type="Test_Level" value="System Test"/>
-                <field type="Test_Framework" value="JUnit"/>
+                <field type="Framework" value="JUnit"/>
                 <field type="Test_Type" value="Regression"/>
             </fields>
             <tags>
@@ -18,7 +18,7 @@
               status="Failed" duration="0" started="@@@STARTED@@@">
             <fields>
                 <field type="Test_Level" value="System Test"/>
-                <field type="Test_Framework" value="JUnit"/>
+                <field type="Framework" value="JUnit"/>
                 <field type="Test_Type" value="Regression"/>
             </fields>
             <tags>
@@ -31,7 +31,7 @@
               status="Skipped" duration="0" started="@@@STARTED@@@">
             <fields>
                 <field type="Test_Level" value="System Test"/>
-                <field type="Test_Framework" value="JUnit"/>
+                <field type="Framework" value="JUnit"/>
                 <field type="Test_Type" value="Regression"/>
             </fields>
             <tags>
@@ -44,7 +44,7 @@
               status="Passed" duration="0" started="@@@STARTED@@@">
             <fields>
                 <field type="Test_Level" value="System Test"/>
-                <field type="Test_Framework" value="JUnit"/>
+                <field type="Framework" value="JUnit"/>
                 <field type="Test_Type" value="Regression"/>
             </fields>
             <tags>
@@ -58,7 +58,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -73,7 +73,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -88,7 +88,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -103,7 +103,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -118,7 +118,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -133,7 +133,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -148,7 +148,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -163,7 +163,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -178,7 +178,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -193,7 +193,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -208,7 +208,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
@@ -223,7 +223,7 @@
             <fields>
                 <field type="Test_Level" value="Integration Test"/>
                 <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Test_Framework" value="TestNG"/>
+                <field type="Framework" value="TestNG"/>
                 <field type="Test_Type" value="End to End"/>
             </fields>
             <tags>
