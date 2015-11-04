@@ -1,237 +1,237 @@
 <?xml version="1.0" ?>
-<testResult>
-    <tests>
-        <test package="com.hp.demo.client.notifications" class="NotificationsEventFactoryTest" name="testNullListener"
+<test_result>
+    <test_runs>
+        <test_run package="com.hp.demo.client.notifications" class="NotificationsEventFactoryTest" name="testNullListener"
               status="Failed" duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="System Test"/>
-                <field type="Framework" value="JUnit"/>
-                <field type="Test_Type" value="Regression"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.client.notifications" class="NotificationsEventFactoryTest" name="testCreateModule"
+            <test_fields>
+                <test_field type="Test_Level" value="System Test"/>
+                <test_field type="Framework" value="JUnit"/>
+                <test_field type="Test_Type" value="Regression"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.client.notifications" class="NotificationsEventFactoryTest" name="testCreateModule"
               status="Failed" duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="System Test"/>
-                <field type="Framework" value="JUnit"/>
-                <field type="Test_Type" value="Regression"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.server.location" class="LocationModuleTest" name="testNotFoundSearch"
+            <test_fields>
+                <test_field type="Test_Level" value="System Test"/>
+                <test_field type="Framework" value="JUnit"/>
+                <test_field type="Test_Type" value="Regression"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.server.location" class="LocationModuleTest" name="testNotFoundSearch"
               status="Skipped" duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="System Test"/>
-                <field type="Framework" value="JUnit"/>
-                <field type="Test_Type" value="Regression"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.server.login" class="LoginComponentTest" name="testRegistrationCallback"
+            <test_fields>
+                <test_field type="Test_Level" value="System Test"/>
+                <test_field type="Framework" value="JUnit"/>
+                <test_field type="Test_Type" value="Regression"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.server.login" class="LoginComponentTest" name="testRegistrationCallback"
               status="Passed" duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="System Test"/>
-                <field type="Framework" value="JUnit"/>
-                <field type="Test_Type" value="Regression"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testCreateUtils" status="Failed"
+            <test_fields>
+                <test_field type="Test_Level" value="System Test"/>
+                <test_field type="Framework" value="JUnit"/>
+                <test_field type="Test_Type" value="Regression"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testCreateUtils" status="Failed"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Chrome"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testDispatchNegative" status="Skipped"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Chrome"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testDispatchNegative" status="Skipped"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Chrome"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testFoundUtils" status="Failed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Chrome"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testFoundUtils" status="Failed"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Chrome"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testMergeNegative" status="Passed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Chrome"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.camera" class="CameraUseCaseTest" name="testMergeNegative" status="Passed"
               duration="1" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Chrome"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.contact" class="ContactFactoryTest" name="testDispatchTasks" status="Passed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Chrome"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.contact" class="ContactFactoryTest" name="testDispatchTasks" status="Passed"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.contact" class="ContactFactoryTest" name="testInvalidUseCase" status="Skipped"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.contact" class="ContactFactoryTest" name="testInvalidUseCase" status="Skipped"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.account" class="AccountUseCaseTest" name="testFoundUtils" status="Failed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.account" class="AccountUseCaseTest" name="testFoundUtils" status="Failed"
               duration="1" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.account" class="AccountUseCaseTest" name="testNotFoundUtils" status="Passed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.account" class="AccountUseCaseTest" name="testNotFoundUtils" status="Passed"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.image" class="ImageUseCaseTest" name="testSimpleFactory" status="Passed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.image" class="ImageUseCaseTest" name="testSimpleFactory" status="Passed"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.login" class="LoginFactoryHandlerTest" name="testMergeImage" status="Skipped"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.login" class="LoginFactoryHandlerTest" name="testMergeImage" status="Skipped"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.login" class="LoginFactoryHandlerTest" name="testResetPlatform" status="Failed"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.login" class="LoginFactoryHandlerTest" name="testResetPlatform" status="Failed"
               duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-        <test package="com.hp.demo.e2e.notifications" class="NotificationsUseCaseTest" name="testCreateTasks"
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+        <test_run package="com.hp.demo.e2e.notifications" class="NotificationsUseCaseTest" name="testCreateTasks"
               status="Passed" duration="0" started="@@@STARTED@@@">
-            <fields>
-                <field type="Test_Level" value="Integration Test"/>
-                <field type="Testing_Tool_Type" value="Selenium"/>
-                <field type="Framework" value="TestNG"/>
-                <field type="Test_Type" value="End to End"/>
-            </fields>
-            <tags>
-                <tag type="AUT Env" value="Dev"/>
-                <tag type="Browser" value="Firefox"/>
-                <tag type="OS" value="Linux"/>
-                <tag type="DB" value="Oracle"/>
-            </tags>
-        </test>
-    </tests>
-</testResult>
+            <test_fields>
+                <test_field type="Test_Level" value="Integration Test"/>
+                <test_field type="Testing_Tool_Type" value="Selenium"/>
+                <test_field type="Framework" value="TestNG"/>
+                <test_field type="Test_Type" value="End to End"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="Browser" value="Firefox"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+    </test_runs>
+</test_result>
