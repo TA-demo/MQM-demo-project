@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<test_result>
+    <test_runs>
+        <test_run package="com.hp.demo.client.notifications" class="NotificationsEventFactoryTest" name="testStoreResults"
+              status="Failed" duration="0" started="@@@STARTED@@@">
+            <test_fields>
+                <test_field type="Test_Level" value="System Test"/>
+                <test_field type="Framework" value="JUnit"/>
+                <test_field type="Test_Type" value="Regression"/>
+            </test_fields>
+            <environment>
+                <taxonomy type="AUT Env" value="Dev"/>
+                <taxonomy type="OS" value="Linux"/>
+                <taxonomy type="DB" value="Oracle"/>
+            </environment>
+        </test_run>
+    </test_runs>
+</test_result>
