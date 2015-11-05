@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hp.demo.server.login.LoginComponentTest" time="10.466" tests="8" errors="0" skipped="0" failures="0">
-  <testcase name="testRegistrationCallback" classname="com.hp.demo.server.login.LoginComponentTest" time="0"/>
-</testsuite>

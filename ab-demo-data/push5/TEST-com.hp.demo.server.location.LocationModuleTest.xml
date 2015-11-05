@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hp.demo.server.location.LocationModuleTest" time="0" tests="1" errors="0" skipped="1" failures="0">
-  <testcase name="testNotFoundSearch" classname="com.hp.demo.server.location.LocationModuleTest" time="0">
-    <skipped/>
-  </testcase>
-</testsuite>
