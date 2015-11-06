@@ -1,4 +1,4 @@
-push1.xml<?xml version="1.0" ?>
+<?xml version="1.0" ?>
 <test_result>
     <test_runs>
         <test_run package="com.hp.demo.client.notifications" class="NotificationsEventFactoryTest" name="testStoreResults"
